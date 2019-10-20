@@ -1,8 +1,7 @@
 Rails.application.routes.draw do
-  get 'pages/timeline'
-  devise_for :users
-  root "pages#timline"
+  devise_for :users, controllers: { registrations: 'registrations'}
+  root "pages#timeline"
 
-  get 'pages/timline'
+  get 'pages/timeline'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
