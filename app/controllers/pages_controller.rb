@@ -1,4 +1,4 @@
 class PagesController < ApplicationController
-  def timline
+  def timeline
   end
 end

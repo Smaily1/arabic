@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'pages/timeline'
+  devise_for :users
   root "pages#timline"
 
   get 'pages/timline'
