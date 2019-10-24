@@ -14,3 +14,19 @@
  *= require_self
  */
  @import "bootstrap";
+
+
+ body {
+     padding: 70px;
+ }
+
+ .timeline-centered, .card, .jumbotron-fluid, .checkbox, .alert, input, textarea {
+     direction : rtl;
+ }
+ .btn-group {
+     direction: ltr;
+    
+ }
+ body, .dropdown-item {
+     text-align: right;
+ }

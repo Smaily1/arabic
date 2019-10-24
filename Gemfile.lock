@@ -92,6 +92,7 @@ GEM
     ffi (1.11.1-x64-mingw32)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
+    gravatarify (3.0.0)
     i18n (1.7.0)
       concurrent-ruby (~> 1.0)
     io-like (0.3.0)
@@ -211,6 +212,7 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
+  bcrypt
   bootsnap (>= 1.1.0)
   bootstrap (~> 4.1.3)
   byebug
@@ -219,6 +221,7 @@ DEPENDENCIES
   coffee-rails (~> 4.2)
   devise (~> 4.3)
   duktape
+  gravatarify (~> 3.0.0)
   jbuilder (~> 2.5)
   jquery-rails (~> 4.3)
   puma (~> 3.11)
